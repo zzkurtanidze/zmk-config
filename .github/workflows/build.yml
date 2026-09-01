@@ -3,4 +3,4 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: KinesisCorporation/Adv360-Pro-ZMK/.github/workflows/build-user-config.yml@suppress-ep-warning
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main 
